@@ -1,0 +1,32 @@
+.login-container {
+  width: 100%;
+  height: 100vh;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  border: 1px solid lightgray;
+  border-radius: 0.25rem;
+  padding: 2rem;
+}
+
+.login-btn {
+  padding: 0.375rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: deepskyblue;
+  color: white;
+  border-radius: 0.25rem;
+  border: 1px solid lightgray;
+  display: block;
+  margin-right: auto;
+}

@@ -1,0 +1,24 @@
+.inp-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+.inp-box > input {
+  width: 100%;
+  height: 50px;
+  border-radius: 0.25rem;
+  border: 1px solid lightgray;
+  padding-left: 1rem;
+}
+.inp-box > input,
+.inp-box > label {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.inp-box > label {
+  text-transform: capitalize;
+}
