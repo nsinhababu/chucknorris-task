@@ -1,0 +1,23 @@
+.top-bar-container {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search {
+  width: 250px;
+  height: 40px;
+  border-radius: 0.25rem;
+  border: 1px solid lightgray;
+  padding-left: 0.5rem;
+  font-size: 0.75rem;
+}
+.search-btn {
+  padding: 0.375rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: lightgray;
+  font-size: 0.75rem;
+}
